@@ -21,7 +21,7 @@ const HeroBanner = () => {
       fontSize="160px">
         Exercises
       </Typography>
-      <img src={HeroBannerImage} alt="banner" className="hero-banner-img" />
+      <img src={HeroBannerImage} alt="banner" className="hero-banner-img" style={{position:"absolute",left:"780px"}}/>
     </Box>
   );
 };
